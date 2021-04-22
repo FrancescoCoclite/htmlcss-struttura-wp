@@ -11,9 +11,44 @@ header{
     background-color: blueviolet;
     margin-bottom: 20px;
 }
+.clearfix:after{
+    clear: both;
+    content: "";
+    display: table;
+
+}
 .sezione-top{
-    height: 600px;
+    height: 400px; /*andrà tolta */
     background-color: #E1D67A;
     margin-bottom: 20px;
-
+}
+.sezione-bot{
+    height: 300px; /*andrà tolta */
+    background-color: #0086FF;
+    margin-bottom: 20px;
+}
+.riga-top{
+    height: 40px;
+    background-color: #ABCFE7;
+    margin-bottom: 20px;
+}
+.colonna{
+    float: left;
+}
+.sinistra{
+    width: 32%;
+    margin-right: 2%;
+    background-color: #ABCFE7; 
+    height: 200px;   
+}
+.centrale{
+    width: 32%;
+    margin-right: 2%;
+    background-color: #ABCFE7; 
+    height: 200px; 
+}
+.destra{
+    width: 32%;
+    background-color: #ABCFE7; 
+    height: 200px;
 }
