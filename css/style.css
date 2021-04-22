@@ -3,12 +3,17 @@
     padding: 0px;
     box-sizing: border-box;
 }
-
+body{
+    padding: 20px 60px;
+}
 header{
     height: 100px;
     background-color: blueviolet;
     margin-bottom: 20px;
 }
 .sezione-top{
-    
+    height: 600px;
+    background-color: #E1D67A;
+    margin-bottom: 20px;
+
 }
