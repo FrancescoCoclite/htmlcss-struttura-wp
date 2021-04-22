@@ -8,22 +8,21 @@ body{
 }
 header{
     height: 100px;
-    background-color: blueviolet;
+    background-color: #E579E6;
     margin-bottom: 20px;
-}
-.clearfix:after{
-    clear: both;
-    content: "";
-    display: table;
-
 }
 .sezione-top{
     height: 400px; /*andrà tolta */
     background-color: #E1D67A;
     margin-bottom: 20px;
 }
+.clearfix:after{
+    clear: both;
+    content: "";
+    display: table;
+}
 .sezione-bot{
-    height: 300px; /*andrà tolta */
+    height: 700px; /*andrà tolta */
     background-color: #0086FF;
     margin-bottom: 20px;
 }
@@ -39,16 +38,24 @@ header{
     width: 32%;
     margin-right: 2%;
     background-color: #ABCFE7; 
-    height: 200px;   
+    height: 200px; 
+    height: 600px;/* va tolta */
 }
 .centrale{
     width: 32%;
     margin-right: 2%;
     background-color: #ABCFE7; 
     height: 200px; 
+    height: 600px;/* va tolta */
 }
 .destra{
     width: 32%;
     background-color: #ABCFE7; 
     height: 200px;
+    height: 600px;/* va tolta */
+}
+footer{
+    height: 80px;
+    background-color: #8801FE;
+    margin-bottom: 20px;
 }
